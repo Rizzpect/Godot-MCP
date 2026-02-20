@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "godot": {
+      "command": "node",
+      "args": ["{PATH_TO_GODOT_MCP}/dist/index.js"],
+      "env": {
+        "GODOT_PATH": "{PATH_TO_GODOT_EXECUTABLE}",
+        "GODOT_PROJECT_PATH": "{PATH_TO_GODOT_PROJECT}",
+        "GODOT_LSP_PORT": "6005"
+      }
+    }
+  }
+}

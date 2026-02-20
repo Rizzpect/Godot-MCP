@@ -1,0 +1,43 @@
+{
+  "mcpServers": {
+    "godot": {
+      "command": "node",
+      "args": ["{PATH_TO_GODOT_MCP}/dist/index.js"],
+      "env": {
+        "GODOT_PATH": "{PATH_TO_GODOT_EXECUTABLE}",
+        "GODOT_PROJECT_PATH": "{PATH_TO_GODOT_PROJECT}",
+        "GODOT_LSP_PORT": "6005",
+        "DEBUG": "false"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "godot_launch_editor",
+        "godot_run_project",
+        "godot_stop_project",
+        "godot_get_project_info",
+        "godot_get_version",
+        "godot_list_projects",
+        "godot_run_script",
+        "godot_run_code",
+        "godot_list_scripts",
+        "godot_read_script",
+        "godot_create_script",
+        "godot_analyze_script",
+        "godot_list_scenes",
+        "godot_get_scene_tree",
+        "godot_create_scene",
+        "godot_save_scene",
+        "godot_find_nodes",
+        "godot_get_node_properties",
+        "godot_validate_script",
+        "godot_check_lsp",
+        "godot_export_project",
+        "godot_get_export_presets",
+        "godot_list_resources",
+        "godot_execute",
+        "godot_get_config",
+        "godot_quit"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "godot-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Godot Engine - Enables AI assistants to interact with Godot projects",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "godot-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "godot",
+    "mcp",
+    "game-engine",
+    "claude",
+    "ai",
+    "gdscript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godot-mcp/godot-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godot-mcp/godot-mcp/issues"
+  },
+  "homepage": "https://github.com/godot-mcp/godot-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zx": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
