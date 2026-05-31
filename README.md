@@ -4,6 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0%2B-blue?style=flat&logo=typescript)](https://typescriptlang.org)
 [![MIT License](https://img.shields.io/badge/License-MIT-red?style=flat)](LICENSE)
 [![Godot](https://img.shields.io/badge/Made%20with-Godot-478cbf?style=flat&logo=godot)](https://godotengine.org)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202026-brightgreen?style=flat)](https://github.com/Rizzpect/Godot-MCP)
 
 A comprehensive Model Context Protocol (MCP) server for Godot Engine that enables AI assistants to interact with Godot projects. Provides powerful tools for project management, script execution, scene manipulation, asset management, and more.
 
@@ -196,6 +197,16 @@ npm run dev    # Development with hot reload
 npm run build  # Build TypeScript
 npm start      # Run production
 ```
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve the project.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
 
 ## License
 
